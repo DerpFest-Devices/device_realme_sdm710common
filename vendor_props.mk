@@ -116,6 +116,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.disable_client_composition_cache=1 \
     debug.sf.predict_hwc_composition_strategy=0 \
     ro.hardware.vulkan=adreno \
+    ro.hwui.render_ahead=20 \
     ro.hardware.egl=adreno
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
